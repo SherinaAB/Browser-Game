@@ -42,17 +42,20 @@ All three steps will occur until the timer has reached 30 seconds, at which time
 
 ### MVP Criteria
 
-- Question cards should be legible while with a fun and inviting design
-- Answer buttons should have color transition upon player hovering and highlighted upon selection
+- Question cards should be legible
+- Answer buttons should have color transition upon player hovering
 - Timer should begin countdown immediately and be clearly shown
 - Scoreboard should tally proper and be placed in a strategic area easily legible
-- transition between question cards should be quick and seamless
 
 ### Post-MVP Plans
 
+- Timer should begin countdown immediately and be clearly shown
 - Create rotating cards during transitions
 - Add a sound bite during each transition to audibly indicate game progression
 - Add in a countdown alarm sound and color change alert on timer at the 5 second remaining mark
+- Answer buttons highlighted upon selection
+- while with a fun and inviting design
+- transition between question cards should be quick and seamless
 
 ## Project Planning
 
@@ -61,7 +64,6 @@ All three steps will occur until the timer has reached 30 seconds, at which time
 | Tue 11/22 | Create GitHub repository. Complete README.md. |
 | Wed 11/23 | Begin building environment: HTML, JS, & CSS files separately     |
 | Sun 11/27 | Debug and test game in browser     |
-| Sun 11/28 | Attend office hours with any questions or issues    |
 | Tue 11/29 | Debug and test game in browser     |
-| Wed 11/30 | Debug and test game in browser; Deploy to GitHub Pages. |
+| Wed 11/30 | Attend office hours with any questions or issues, Debug and test game in browser, and Deploy to GitHub Pages. |
 | Thu 12/01 | Submit completed project. Project presentations. |
