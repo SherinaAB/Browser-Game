@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <title>Movie or Music Trivia Game | Sherina A. Buenaseda | Software Developer</title>
     <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    <h1>Movie or Music Trivia Game</h1>
+    <h1>Movie OR Music Trivia Game</h1>
     <p></p>
     <script src="script.js" type="module"></script>
+    <p id="hover">Selected Answer</p>
+    <button onclick="changeColor('green');">Movie Quote</button>
+    <button onclick="changeColor('green');">Music Lyric</button>
     <main>
         <img class="movieMusic" src="assets/movie_music.jpg" alt="Movie Music Image">
+   
+        <div class="gameRules">
+        Select "Movie Quote" OR "Music Lyric" button
+        </div>
+        <div class="scoreBoard"></div>
+        <div class="background"></div>     
     </main>
 </body>
 </html>

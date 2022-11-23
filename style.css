@@ -1,7 +1,30 @@
+body {
+    background-color: rgba(218, 140, 63, 0.838);
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(165, 17, 17);
+}
+
 .movieMusic {
-    height: 100px;
-    width: 100px;
-    position: fied;
-    top: 40vh;
-    left:30vw
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    padding: 5px 5px 5px 5px; 
+    
+}
+
+.scoreBoard {
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    font: size 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.gameRules {
+    position: absolute;
+    text-align: right;
+    
 }
