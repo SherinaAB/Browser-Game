@@ -1,26 +1,33 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: rgba(218, 140, 63, 0.838);
     text-align: center;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(165, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.genre-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.movieMusic {
-    height: 1000px;
-    width: 1000px;
-    position: relative;
-    padding: 5px 5px 5px 5px; 
-    
-}
-
-.scoreBoard {
-    position: fixed;
-    z-index: 10;
-    height: 10vh;
-    font: size 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
+.card {
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: rgb(12, 84, 179);
+    border: solid orange 5px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
 }
 
 .gameRules {
@@ -28,3 +35,29 @@ body {
     text-align: right;
     
 }
+
+
+
+
+
+/* .scoreBoard {
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    font: size 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+} */
+
+   
+/* .movieMusic {
+    top: 200px;
+    justify-content: start;
+    background-image: url(https://i.scdn.co/image/ab67616d0000b273241dae612c8161be78c8b799);
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    /* padding: 5px 5px 5px 5px; */
+    opacity: .5;
+    
+} */
