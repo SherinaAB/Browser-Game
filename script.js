@@ -1,19 +1,17 @@
 const game = document.getElementById('game')
 const scoreDisplay = document.getElementById('score')
 
-const genres = [
-    {
+const genres = [{
         name: 'Film',
-        id: 20
-    }
-]
+        id: 20,
+    }]
 
 const levels = ['easy','medium','hard']
 
-function addGenre(genre[0]) {
+function addGenre(genres) {
     const column = document.createElement('div')
     column.classList.add('genre-column')
-    column.innerHTML = genre.name
+    column.innerHTML = genres.name
     game.append(column)
     
     levels.forEach(level => {
@@ -37,7 +35,7 @@ function addGenre(genre[0]) {
                 console.log(data)
                 card.setAttribute('data-question', data.results[0].question)
                 card.setAttribute('data-answer', data.results[0].correct_answer)
-                card.setAttribute('data-value', card.innerHTML())
+                card.setAttribute('data-value', card.getinnerHTML())
             })
         card.addEventListener('click',flipCard)
      })
